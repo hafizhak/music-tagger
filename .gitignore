@@ -1,0 +1,22 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore test or debug outputs
+parse_debug.txt
+tag_agent_report.json
+tag_agent_review.json

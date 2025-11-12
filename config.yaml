@@ -1,0 +1,23 @@
+user_agent:
+  app: "hafizhak-music-tagger"
+  version: "0.1.1"
+  contact: "https://github.com/hafizhak/music-tagger"
+
+thresholds:
+  duration_tolerance_seconds: 3
+  auto_apply_on_resolver_hit: true
+
+tagging:
+  write_fields:
+    - MUSICBRAINZ_RELEASEID
+    - MUSICBRAINZ_RELEASEGROUPID
+    - MUSICBRAINZ_RECORDINGID
+    - ALBUM
+    - TITLE
+    - TRACKNUMBER
+    - TOTALTRACKS
+    - DATE
+    - LABEL
+    - CATALOGNUMBER
+    - MEDIA
+    - SOURCE
